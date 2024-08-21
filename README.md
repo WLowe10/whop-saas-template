@@ -26,7 +26,7 @@ You can name it whatever you like!
 
 This application utilizes Whop as the OAuth provider for authentication. Follow these steps to set up your credentials:
 
-1. Navigate to the [OAuth](https://whop.com/dash/settings/developer/oauth) section of the Whop developer dashboard.
+1. Navigate to the [OAuth](https://whop.com/dash/settings/developer/oauth) section of the developer dashboard.
 2. Create OAuth credentials for your hub.
 3. Add the following variables to your `.env` file in the project root:
 
@@ -39,7 +39,7 @@ WHOP_CLIENT_SECRET="your_client_secret"
 
 To access Whop's API, you'll need to create an API key:
 
-1. Navigate to the [API Keys](https://whop.com/dash/settings/developer/api-keys) section of the Whop developer dashboard.
+1. Navigate to the [API Keys](https://whop.com/dash/settings/developer/api-keys) section of the developer dashboard.
 2. Generate a new API key.
 3. Add the key to your .env file:
 
@@ -53,7 +53,7 @@ To receive updates from Whop, such as when a user's membership becomes valid or 
 
 To create a webhook:
 
-1. Navigate to the [webhooks](https://whop.com/dash/settings/developer/webhooks) section of the Whop developer dashboard.
+1. Navigate to the [webhooks](https://whop.com/dash/settings/developer/webhooks) section of the developer dashboard.
 2. Create a new webhook for `https://myapp.com/api/whop/webhook`. This template only relies on the `membership_went_valid` and `membership_went_invalid` events.
 3. Add the secret to your .env file:
 
