@@ -1,6 +1,6 @@
 # Whop SaaS Template
 
-A starter for building and monetizing your web app on [Whop](https://whop.com).
+A starter for building and monetizing a web app on [Whop](https://whop.com).
 
 This template uses
 
